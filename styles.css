@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #C271FF;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+button:hover,
+button:active {
+  opacity: 0.9;
+}
+
+.hero-homepage {
+  background-image: url(./images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.bgd-primary {
+  background-color: var(--color-primary);
+  border: none;
+}
+
+.profile-img {
+  width: 9rem;
+}
+
+/* @media only screen and () */

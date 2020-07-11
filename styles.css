@@ -1,5 +1,6 @@
 :root {
-  --color-primary: #C271FF;
+  --color-primary: #c271ff;
+  --color-dark: #081629;
 }
 
 .header {
@@ -11,6 +12,15 @@
 button:hover,
 button:active {
   opacity: 0.9;
+}
+
+.section-body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-title {
+  padding-bottom: 3rem;
 }
 
 .hero-homepage {
@@ -29,8 +39,11 @@ button:active {
   border: none;
 }
 
+.bgd-dark {
+  background-color: var(--color-dark);
+  border: none;
+}
+
 .profile-img {
   width: 9rem;
 }
-
-/* @media only screen and () */

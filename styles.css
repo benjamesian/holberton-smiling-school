@@ -1,6 +1,12 @@
 :root {
   --color-primary: #c271ff;
+  --color-primary-light: #CB8BF9;
   --color-dark: #081629;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.7;
 }
 
 .header {
@@ -30,6 +36,20 @@ button:active {
   background-position: center;
 }
 
+.hero-pricing {
+  background-image: url(./images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-courses {
+  background-image: url(./images/pic_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .color-primary {
   color: var(--color-primary);
 }
@@ -39,9 +59,18 @@ button:active {
   border: none;
 }
 
+.bgd-primary-light {
+  background-color: var(--color-primary-light);
+  border: none;
+}
+
 .bgd-dark {
   background-color: var(--color-dark);
   border: none;
+}
+
+.bgd-transparent {
+  opacity: 0.4;
 }
 
 .profile-img {
